@@ -1,0 +1,39 @@
+//
+//  NewsApp.pch
+//  NewsApp
+//
+//  Created by 杨方明 on 16/4/20.
+//  Copyright © 2016年 杨方明. All rights reserved.
+//
+
+#ifndef NewsApp_pch
+#define NewsApp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* NewsApp_pch */
+
+#ifdef __OBJC__
+
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "FMDB.h"
+#import "Masonry.h"
+#import "NotificationDefine.h"
+#import "ServicePathConfig.h"
+#import "SystemConfig.h"
+#import "FMDatabase.h"
+#import "EnumConfig.h"
+#import "UIView+Expand.h"
+#import "UIColor+Helper.h"
+#import "GTMBase64.h"
+#import "BussinessManager.h"
+#import "MJExtension.h"
+#import "DATManager.h"
+#import "MJRefresh.h"
+#import "URRequest.h"
+#import "NSString+Expand.h"
+#import "BaseViewController.h"
+
+#endif
